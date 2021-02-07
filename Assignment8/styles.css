@@ -1,0 +1,46 @@
+body {
+    background-color:gray; 
+  }
+
+  h1, h2 {
+    background-color:rgb(172, 172, 179);
+    font-family:cursive;
+  }
+  div {
+    border-style:double; border-color:white;
+   }
+    table {
+      border-collapse: dotted;
+      width: 100%;
+    }
+    th, td, li, p, form {
+        padding:8px;
+        text-align: left;
+        border-bottom: 1px solid red;
+        background-color: rgb(172, 172, 179);
+        font-family:cursive;
+    }
+     #box-model {
+        padding: 30px;
+        border-style: ridge;
+        border-width: 3px;
+        background-color: gold;
+    }
+    #gold-superbowl  {
+          color: gold;
+    }
+    #red-superbowl {
+        color: red;
+    }
+    #box-model2 {
+        padding: 30px;
+        border-style: ridge;
+        border-width: 3px;
+        background-color: red;
+    }
+    .every-odd li:nth-child(odd){
+        background-color: seagreen;
+    }
+
+
+    
